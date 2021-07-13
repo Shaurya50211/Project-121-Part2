@@ -1,0 +1,38 @@
+body {
+    background-image: linear-gradient(45deg, #f17c58, #e94584, #24aadb, #27dbb1, #ffdc18, #ff3706);
+    background-size: 600% 100%;
+    animation: gradient 5s linear infinite;
+    animation-direction: alternate;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%
+    }
+
+    100% {
+        background-position: 100%
+    }
+}
+
+.btn{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+div{
+    background-color: gold;
+    width: 20%;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 32px black;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 70px;
+    text-shadow: 5px 5px 6px white;
+}
